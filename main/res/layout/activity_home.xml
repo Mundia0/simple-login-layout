@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/content" android:padding="19dp"
+    android:background="#FF9800"
+    tools:ignore="ExtraText">
+    tools:context=".MainActivity">
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="112dp"
+        android:layout_gravity="top"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/cuu" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+android:layout_gravity="center" android:fontFamily="sans-serif-black"     android:text="Welcome to the Home Page"
+
+        android:textSize="24sp"
+        android:textColor="#F60D0D"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="332dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="4dp"
+        android:src="@drawable/img_1" />
+
+    <Button
+        android:id="@+id/logout_button"
+        android:layout_width="191dp"
+        android:layout_height="60dp"
+        android:layout_gravity="bottom"
+        android:background="#03A9F4"
+        android:fontFamily="cursive"
+        android:padding="10dp"
+        android:text="Logout"
+        android:textColor="#ff2123"
+        android:textSize="28sp" />
+</LinearLayout>
